@@ -1,1 +1,72 @@
+*{
+		margin: 0;
+		padding: 0;
+		border-size: border-box;
+		font-family: Bradley Hand ;
 
+	}
+	div#container{
+	
+		width: 100%;
+		margin-left: 20px;
+
+	}
+	div#box{
+		background-color: gray;
+		border: 3px solid black;
+		height: 300px;
+		float: left;
+		margin: 10px;
+	}
+	h1{
+		text-align: center;
+		margin: 50px 0px 50px 0px;
+	}
+	h2{
+		position: relative;
+		top: 0px;
+		float: right;
+		padding: 2px 40px 2px 40px;
+		text-align: right;
+		border: 3px solid black;
+
+	}
+	#one{
+		background-color: #E9967A;
+	}
+	#two{
+		color: white;
+		background-color: #CD5C5C;
+	}
+	#three{
+		background-color: #f0e68c; 
+	}
+	p{
+		position: relative;
+		top: 50px;
+		font-size: 20px;
+		padding:10px;
+	}
+	@media (min-width: 992px){
+		#box{
+			width: 30%;
+			margin-left: 100px;
+		}
+		
+	}
+	@media (min-width: 768px) and (max-width: 991px){
+		#box{
+			width: 43.25%;
+		}
+		#box:last-child{
+			width: 90%;
+		}
+	}	
+	@media(max-width: 767px){
+		#box{
+			width: 90%;
+			margin-left:20px;
+			margin-right: 20px;
+		}
+
+	}		
